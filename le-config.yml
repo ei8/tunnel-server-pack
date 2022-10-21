@@ -1,0 +1,18 @@
+acme:
+  email_account: elmer.bool@ei8.works
+certificates:
+- autorestart:
+  - containers:
+    - sish
+  domains:
+  - fibona.cc
+  - '*.fibona.cc'
+  name: fibona.cc
+  profile: godaddy
+  force_renew: true
+profiles:
+- name: godaddy
+  provider: godaddy
+  provider_options:
+    auth_key: 
+    auth_secret: 
