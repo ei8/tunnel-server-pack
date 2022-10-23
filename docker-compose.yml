@@ -31,6 +31,5 @@ services:
       --authentication=false
       --bind-hosts=fibona.cc
       --bind-random-subdomains=false
-      --idle-connection=false
     network_mode: host
     restart: always
