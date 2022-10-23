@@ -9,7 +9,6 @@ certificates:
   - '*.fibona.cc'
   name: fibona.cc
   profile: godaddy
-  force_renew: true
 profiles:
 - name: godaddy
   provider: godaddy
